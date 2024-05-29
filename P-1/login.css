@@ -1,0 +1,86 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto_Flex variant0,Tofu";
+    line-height: 1.5;
+    min-height: 100vh;
+    background-image: url("3.jpg");
+    background-size: 100% 740px;  
+    flex-direction: column;
+    margin: 0;
+}
+
+.container {
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0 0 20px aqua;
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+ 
+.container h1{
+    font-size: 36px;
+    color: aqua;
+} 
+.container .text{
+  position: relative;
+  top: 7%;
+}
+.inp1{
+    border:none;
+    background-color: black;
+    border-bottom: 3px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+.inp2{
+    border:none;
+    background-color: black;
+    border-bottom: 3px solid white;
+    width: 250px;
+    font-size: 20px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+ 
+p{
+    margin-top: 30px;
+    font-size: 20px; 
+    cursor: pointer;
+}
+p a{
+    color: aqua;
+    cursor: pointer;
+
+}
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    border:3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
+ 

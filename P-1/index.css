@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {  
+    background-image: url("1.jpg");
+    background-size: 100% 740px;  
+    padding: 0%;
+    font-family: "Roboto_Flex variant0,Tofu";  
+    margin: 0%;
+}
+.container{   
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-direction: row; 
+    background-color: #000000;
+    color: white; 
+    padding:1%;
+    box-shadow: 0 1px 10px aqua; 
+}
+.container a{
+  float: left;
+  text-align: center;  
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+} 
+.container button{
+    width: 130px;
+    height: 44px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+button:hover{
+    border:3px solid aqua;
+    color: white;
+    font-size: 20px;
+    background-color: black;
+}
